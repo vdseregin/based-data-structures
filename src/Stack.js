@@ -25,8 +25,7 @@ class Stack {
       this.first.next = temp;
     }
 
-    this.size++;
-    return this.size;
+    return ++this.size;
   }
 
   pop() {
